@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Users from './PAGES/Users'; // Certifique-se de importar o arquivo correto
+import { Users } from './PAGES/Users';
+ // Certifique-se de importar o arquivo correto
 import './App.css'; // ou o arquivo css onde você coloca o Tailwind
 
 function App() {
